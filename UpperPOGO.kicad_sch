@@ -2751,7 +2751,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "27-IDC-FD-24P-25PK"
 			(at 95.25 60.96 0)
 			(effects
 				(font
