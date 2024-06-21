@@ -3,15 +3,15 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "8.0.2"
+      "Version": "8.0.3"
     },
-    "CreationDate": "2024-05-23T18:59:23-04:00"
+    "CreationDate": "2024-06-21T15:22:52-04:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "UpperPOGO",
       "GUID": "55707065-7250-44f4-974f-2e6b69636164",
-      "Revision": "rev?"
+      "Revision": "v4"
     },
     "Size": {
       "X": 128.05,

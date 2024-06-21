@@ -4,6 +4,13 @@
 	(generator_version "8.0")
 	(uuid "12fdc6b6-ccf4-4a78-b2a0-372231e8f75f")
 	(paper "A4")
+	(title_block
+		(title "Upper POGO Design")
+		(date "2024-06-07")
+		(rev "3")
+		(company "QATCH Technologies LLC")
+		(comment 1 "Author: Alexander J. Ross")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x24_Pin"
 			(pin_names
@@ -1442,16 +1449,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 138.43) (xy 175.26 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02f76635-5fc4-4719-8d2e-b50e6dc1a357")
-	)
-	(wire
-		(pts
 			(xy 100.33 66.04) (xy 139.7 66.04)
 		)
 		(stroke
@@ -1459,6 +1456,16 @@
 			(type default)
 		)
 		(uuid "03ae2396-3eb1-467b-9a39-50a2dfd33990")
+	)
+	(wire
+		(pts
+			(xy 175.26 138.43) (xy 121.92 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "066f5f77-2393-4039-9485-0d9003a67562")
 	)
 	(wire
 		(pts
@@ -1509,6 +1516,16 @@
 			(type default)
 		)
 		(uuid "13525801-7214-4963-b104-69a5c7b172e3")
+	)
+	(wire
+		(pts
+			(xy 185.42 134.62) (xy 124.46 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1766fb76-0dd7-4279-8f61-22bfa78ec879")
 	)
 	(wire
 		(pts
@@ -1582,7 +1599,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 83.82) (xy 121.92 133.35)
+			(xy 121.92 83.82) (xy 121.92 138.43)
 		)
 		(stroke
 			(width 0)
@@ -1592,13 +1609,13 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 91.44) (xy 100.33 152.4)
+			(xy 114.3 152.4) (xy 181.61 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "39a6bb96-8afb-4f0c-83aa-f2e5830516b5")
+		(uuid "37e1f530-e1b6-43dc-a279-26abc644a589")
 	)
 	(wire
 		(pts
@@ -1629,16 +1646,6 @@
 			(type default)
 		)
 		(uuid "3f674c4c-7b56-4daf-a9fa-51d8caf83017")
-	)
-	(wire
-		(pts
-			(xy 127 132.08) (xy 175.26 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40924693-a624-4f9e-bbc4-7f9c9f2774eb")
 	)
 	(wire
 		(pts
@@ -1692,16 +1699,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 81.28) (xy 124.46 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ab6e6e0-5ab2-418f-9e2b-eecc01c25ba5")
-	)
-	(wire
-		(pts
 			(xy 100.33 60.96) (xy 144.78 60.96)
 		)
 		(stroke
@@ -1709,6 +1706,16 @@
 			(type default)
 		)
 		(uuid "4d81fed7-5f25-4c8d-a9ce-0a922b030de4")
+	)
+	(wire
+		(pts
+			(xy 100.33 91.44) (xy 114.3 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f1202d8-c42d-4ff5-9b67-ab60b4ae086b")
 	)
 	(wire
 		(pts
@@ -1742,7 +1749,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 78.74) (xy 127 132.08)
+			(xy 127 78.74) (xy 127 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1832,6 +1839,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 91.44) (xy 114.3 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f6fb62c-eac4-402a-9c3a-fbb919e84d98")
+	)
+	(wire
+		(pts
 			(xy 160.02 66.04) (xy 177.8 66.04)
 		)
 		(stroke
@@ -1839,16 +1856,6 @@
 			(type default)
 		)
 		(uuid "742de086-264a-4f81-a46e-62288d8417e4")
-	)
-	(wire
-		(pts
-			(xy 121.92 133.35) (xy 182.88 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78c11c16-5465-45c7-9eef-bdfd98ead15f")
 	)
 	(wire
 		(pts
@@ -2022,6 +2029,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 129.54) (xy 175.26 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd83abc1-ee3c-4edc-acc1-463a1056d940")
+	)
+	(wire
+		(pts
 			(xy 167.64 52.07) (xy 176.53 52.07)
 		)
 		(stroke
@@ -2049,6 +2066,16 @@
 			(type default)
 		)
 		(uuid "c082f460-ccbb-4e46-a103-d674a650b29b")
+	)
+	(wire
+		(pts
+			(xy 124.46 81.28) (xy 124.46 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2f11819-d0e0-47ee-8884-9738b12cd4f9")
 	)
 	(wire
 		(pts
@@ -2170,16 +2197,6 @@
 		)
 		(uuid "f21c40c5-ba88-4f9c-adf4-5b57c6fd8f4e")
 	)
-	(wire
-		(pts
-			(xy 100.33 152.4) (xy 181.61 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3ec783d-1530-43e0-9bd2-1851a92c02dc")
-	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 49.53 152.4 0)
@@ -2188,7 +2205,6 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "03614437-e3a9-4358-b8c7-7c4c1bbd3460")
 		(property "Reference" "H1"
 			(at 52.07 149.8599 0)
@@ -2200,7 +2216,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 52.07 152.3999 0)
+			(at 40.64 146.812 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2275,7 +2291,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_D2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_D2.54mm_Vertical_PogoPin"
 			(at 180.34 95.25 0)
 			(effects
 				(font
@@ -2342,7 +2358,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_D2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_D2.54mm_Vertical_PogoPin"
 			(at 180.34 38.1 0)
 			(effects
 				(font
@@ -2409,7 +2425,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_D2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_D2.54mm_Vertical_PogoPin"
 			(at 193.04 125.73 0)
 			(effects
 				(font
@@ -2476,7 +2492,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_D2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_D2.54mm_Vertical_PogoPin"
 			(at 184.15 121.92 0)
 			(effects
 				(font
@@ -2543,7 +2559,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_D2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_D2.54mm_Vertical_PogoPin"
 			(at 180.34 73.66 0)
 			(effects
 				(font
@@ -2584,7 +2600,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 180.34 138.43 0)
+		(at 190.5 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2593,7 +2609,7 @@
 		(fields_autoplaced yes)
 		(uuid "2c1920e6-40ad-4298-9ba7-4a148668ee58")
 		(property "Reference" "J20"
-			(at 182.88 137.1599 0)
+			(at 193.04 133.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2602,7 +2618,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_MountingPin"
-			(at 182.88 139.6999 0)
+			(at 193.04 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2610,8 +2626,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_D2.54mm_Vertical"
-			(at 180.34 138.43 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_D2.54mm_Vertical_PogoPin"
+			(at 190.5 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2620,7 +2636,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 180.34 138.43 0)
+			(at 190.5 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2629,7 +2645,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 180.34 138.43 0)
+			(at 190.5 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2677,7 +2693,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_D2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_D2.54mm_Vertical_PogoPin"
 			(at 181.61 113.03 0)
 			(effects
 				(font
@@ -2734,7 +2750,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x24_Pin"
+		(property "Value" "Conn_02x12_Pin"
 			(at 95.885 30.48 0)
 			(effects
 				(font
@@ -2742,7 +2758,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x12_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x12_P2.54mm_Vertical"
 			(at 95.25 60.96 0)
 			(effects
 				(font
@@ -2760,7 +2776,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x24, script generated"
+		(property "Description" "Generic connector, single row, 02x12, script generated"
 			(at 95.25 60.96 0)
 			(effects
 				(font
@@ -2858,7 +2874,6 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3f361a66-ade6-491e-9727-200598c0d7ff")
 		(property "Reference" "H2"
 			(at 64.77 149.8599 0)
@@ -2870,7 +2885,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 64.77 152.3999 0)
+			(at 53.34 144.018 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3011,7 +3026,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_D2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_D2.54mm_Vertical_PogoPin"
 			(at 187.96 143.51 0)
 			(effects
 				(font
@@ -3078,7 +3093,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_D2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_D2.54mm_Vertical_PogoPin"
 			(at 186.69 152.4 0)
 			(effects
 				(font
@@ -3145,7 +3160,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_D2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_D2.54mm_Vertical_PogoPin"
 			(at 180.34 45.72 0)
 			(effects
 				(font
@@ -3186,7 +3201,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 180.34 132.08 0)
+		(at 180.34 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3195,7 +3210,7 @@
 		(fields_autoplaced yes)
 		(uuid "67e4c8aa-2669-4bec-be13-5afc70eb423c")
 		(property "Reference" "J19"
-			(at 182.88 130.8099 0)
+			(at 182.88 128.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3204,7 +3219,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_MountingPin"
-			(at 182.88 133.3499 0)
+			(at 182.88 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3212,8 +3227,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_D2.54mm_Vertical"
-			(at 180.34 132.08 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_D2.54mm_Vertical_PogoPin"
+			(at 180.34 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3222,7 +3237,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 180.34 132.08 0)
+			(at 180.34 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3231,7 +3246,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 180.34 132.08 0)
+			(at 180.34 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3279,7 +3294,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_D2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_D2.54mm_Vertical_PogoPin"
 			(at 180.34 86.36 0)
 			(effects
 				(font
@@ -3346,7 +3361,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_D2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_D2.54mm_Vertical_PogoPin"
 			(at 182.88 66.04 0)
 			(effects
 				(font
@@ -3393,7 +3408,6 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "950d13a1-4ca7-49f0-9f3e-609cbc48b650")
 		(property "Reference" "H4"
 			(at 90.17 149.8599 0)
@@ -3405,7 +3419,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 90.17 152.3999 0)
+			(at 78.486 144.272 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3480,7 +3494,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_D2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_D2.54mm_Vertical_PogoPin"
 			(at 180.34 104.14 0)
 			(effects
 				(font
@@ -3527,7 +3541,6 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9c535e91-3707-4b9d-8125-6ade1ff0d1ff")
 		(property "Reference" "H3"
 			(at 77.47 149.8599 0)
@@ -3539,7 +3552,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 77.47 152.3999 0)
+			(at 66.04 146.812 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3614,7 +3627,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_D2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_D2.54mm_Vertical_PogoPin"
 			(at 180.34 147.32 0)
 			(effects
 				(font
@@ -3681,7 +3694,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_D2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_D2.54mm_Vertical_PogoPin"
 			(at 186.69 90.17 0)
 			(effects
 				(font
@@ -3748,7 +3761,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_D2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_D2.54mm_Vertical_PogoPin"
 			(at 180.34 59.69 0)
 			(effects
 				(font
@@ -3815,7 +3828,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_D2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_D2.54mm_Vertical_PogoPin"
 			(at 187.96 100.33 0)
 			(effects
 				(font
@@ -3882,7 +3895,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_D2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_D2.54mm_Vertical_PogoPin"
 			(at 181.61 52.07 0)
 			(effects
 				(font
@@ -3949,7 +3962,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_D2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_D2.54mm_Vertical_PogoPin"
 			(at 190.5 109.22 0)
 			(effects
 				(font
@@ -4016,7 +4029,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_D2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_D2.54mm_Vertical_PogoPin"
 			(at 193.04 118.11 0)
 			(effects
 				(font
@@ -4057,7 +4070,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 187.96 133.35 0)
+		(at 180.34 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4066,7 +4079,7 @@
 		(fields_autoplaced yes)
 		(uuid "ed7ae916-2472-4a81-8a2a-af42d64ef7b9")
 		(property "Reference" "J21"
-			(at 190.5 132.0799 0)
+			(at 182.88 137.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4075,7 +4088,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_MountingPin"
-			(at 190.5 134.6199 0)
+			(at 182.88 139.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4083,8 +4096,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_D2.54mm_Vertical"
-			(at 187.96 133.35 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_D2.54mm_Vertical_PogoPin"
+			(at 180.34 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4093,7 +4106,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 187.96 133.35 0)
+			(at 180.34 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4102,7 +4115,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 187.96 133.35 0)
+			(at 180.34 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4150,7 +4163,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_D2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_D2.54mm_Vertical_PogoPin"
 			(at 182.88 78.74 0)
 			(effects
 				(font
@@ -4217,7 +4230,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_D2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_D2.54mm_Vertical_PogoPin"
 			(at 180.34 29.21 0)
 			(effects
 				(font
