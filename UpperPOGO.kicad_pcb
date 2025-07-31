@@ -11663,7 +11663,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Upper POGO Design v7\nQATCH Technologies LLC"
+	(gr_text "Upper POGO Design v8\nQATCH Technologies LLC"
 		(at 85.15 71.85 270)
 		(layer "F.Cu" knockout)
 		(uuid "c4d03445-7765-4d3a-80fd-f7736c4aafd6")
